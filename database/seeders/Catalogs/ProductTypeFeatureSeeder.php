@@ -1,0 +1,143 @@
+<?php
+
+namespace Database\Seeders\Catalogs;
+
+use App\Models\Catalogs\ProductTypeFeature;
+use Illuminate\Database\Seeder;
+
+class ProductTypeFeatureSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+
+        $data = [
+            ["pid"=>1, "fid" => 1],
+            ["pid"=>1, "fid" => 2],
+            ["pid"=>1, "fid" => 3],
+            ["pid"=>1, "fid" => 4],
+            ["pid"=>1, "fid" => 5],
+            ["pid"=>1, "fid" => 6],
+            ["pid"=>1, "fid" => 17],
+            ["pid"=>2, "fid" => 1],
+            ["pid"=>2, "fid" => 2],
+            ["pid"=>2, "fid" => 3],
+            ["pid"=>2, "fid" => 4],
+            ["pid"=>2, "fid" => 5],
+            ["pid"=>2, "fid" => 6],
+            ["pid"=>2, "fid" => 17],
+            ["pid"=>3, "fid" => 1],
+            ["pid"=>3, "fid" => 2],
+            ["pid"=>3, "fid" => 4],
+            ["pid"=>3, "fid" => 5],
+            ["pid"=>3, "fid" => 6],
+            ["pid"=>4, "fid" => 1],
+            ["pid"=>4, "fid" => 2],
+            ["pid"=>4, "fid" => 3],
+            ["pid"=>4, "fid" => 4],
+            ["pid"=>4, "fid" => 5],
+            ["pid"=>4, "fid" => 6],
+            ["pid"=>5, "fid" => 1],
+            ["pid"=>5, "fid" => 2],
+            ["pid"=>5, "fid" => 3],
+            ["pid"=>5, "fid" => 4],
+            ["pid"=>5, "fid" => 5],
+            ["pid"=>5, "fid" => 6],
+            ["pid"=>6, "fid" => 5],
+            ["pid"=>6, "fid" => 6],
+            ["pid"=>6, "fid" => 7],
+            ["pid"=>6, "fid" => 10],
+            ["pid"=>6, "fid" => 17],
+            ["pid"=>6, "fid" => 18],
+            ["pid"=>7, "fid" => 5],
+            ["pid"=>7, "fid" => 6],
+            ["pid"=>7, "fid" => 7],
+            ["pid"=>7, "fid" => 10],
+            ["pid"=>8, "fid" => 5],
+            ["pid"=>8, "fid" => 6],
+            ["pid"=>8, "fid" => 7],
+            ["pid"=>8, "fid" => 8],
+            ["pid"=>8, "fid" => 9],
+            ["pid"=>8, "fid" => 10],
+            ["pid"=>9, "fid" => 5],
+            ["pid"=>9, "fid" => 6],
+            ["pid"=>9, "fid" => 7],
+            ["pid"=>9, "fid" => 9],
+            ["pid"=>9, "fid" => 10],
+            ["pid"=>9, "fid" => 17],
+            ["pid"=>9, "fid" => 18],
+            ["pid"=>10, "fid" => 5],
+            ["pid"=>10, "fid" => 6],
+            ["pid"=>10, "fid" => 7],
+            ["pid"=>10, "fid" => 10],
+            ["pid"=>10, "fid" => 17],
+            ["pid"=>10, "fid" => 18],
+            ["pid"=>11, "fid" => 5],
+            ["pid"=>11, "fid" => 6],
+            ["pid"=>11, "fid" => 7],
+            ["pid"=>11, "fid" => 10],
+            ["pid"=>11, "fid" => 17],
+            ["pid"=>11, "fid" => 18],
+            ["pid"=>12, "fid" => 5],
+            ["pid"=>12, "fid" => 6],
+            ["pid"=>12, "fid" => 7],
+            ["pid"=>12, "fid" => 10],
+            ["pid"=>12, "fid" => 17],
+            ["pid"=>12, "fid" => 18],
+            ["pid"=>13, "fid" => 5],
+            ["pid"=>13, "fid" => 6],
+            ["pid"=>13, "fid" => 7],
+            ["pid"=>13, "fid" => 10],
+            ["pid"=>14, "fid" => 5],
+            ["pid"=>14, "fid" => 6],
+            ["pid"=>14, "fid" => 7],
+            ["pid"=>14, "fid" => 10],
+            ["pid"=>15, "fid" => 5],
+            ["pid"=>15, "fid" => 6],
+            ["pid"=>15, "fid" => 7],
+            ["pid"=>15, "fid" => 10],
+            ["pid"=>16, "fid" => 1],
+            ["pid"=>16, "fid" => 4],
+            ["pid"=>16, "fid" => 5],
+            ["pid"=>16, "fid" => 6],
+            ["pid"=>16, "fid" => 8],
+            ["pid"=>16, "fid" => 9],
+            ["pid"=>16, "fid" => 10],
+            ["pid"=>16, "fid" => 11],
+            ["pid"=>16, "fid" => 12],
+            ["pid"=>16, "fid" => 13],
+            ["pid"=>16, "fid" => 14],
+            ["pid"=>16, "fid" => 15],
+            ["pid"=>16, "fid" => 16],
+            ["pid"=>16, "fid" => 17],
+            ["pid"=>16, "fid" => 18],
+            ["pid"=>17, "fid" => 1],
+            ["pid"=>17, "fid" => 4],
+            ["pid"=>17, "fid" => 5],
+            ["pid"=>17, "fid" => 6],
+            ["pid"=>17, "fid" => 8],
+            ["pid"=>17, "fid" => 9],
+            ["pid"=>17, "fid" => 10],
+            ["pid"=>17, "fid" => 11],
+            ["pid"=>17, "fid" => 12],
+            ["pid"=>17, "fid" => 13],
+            ["pid"=>17, "fid" => 14],
+            ["pid"=>17, "fid" => 15],
+            ["pid"=>17, "fid" => 16],
+            ["pid"=>17, "fid" => 17],
+            ["pid"=>17, "fid" => 18],
+        ];
+
+        foreach ($data as $d){
+            ProductTypeFeature::create([
+                "product_type_id" => $d["pid"],
+                "feature_id" => $d["fid"],
+                "status_id" => 1
+            ]);
+        }
+    }
+}

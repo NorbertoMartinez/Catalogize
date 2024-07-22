@@ -1,0 +1,21 @@
+<?php
+
+namespace Database\Factories\Catalogs;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class ThemesTypeFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array
+     */
+    public function definition()
+    {
+        return [
+            "name" => "",
+            "status_id" => 1,
+        ];
+    }
+}
